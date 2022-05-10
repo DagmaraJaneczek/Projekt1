@@ -91,7 +91,7 @@ h1 {
 .box-container > div {
   width: calc(100% / 3 - 12px);
   background-color: var(--box-bg);
-  height: 150px;
+  height: 250px;
   padding: 32px;
 }
 
@@ -99,4 +99,53 @@ h1 {
 
 .box-container > div.active {
   border: 1px solid var(--main-color);
+}
+
+.services {
+  background-color: rgb(12, 12, 15);
+}
+
+h2 {
+  font-size: 38px;
+  font-weight: 900;
+  margin-top: 16px;
+  margin-bottom: 16px;
+  padding-top: 50px;
+  padding-left: 60px;
+}
+
+.box-container3 > div {
+  width: calc(100% / 3 - 12px);
+  background-color: var(--box-bg);
+  height: 250px;
+  padding: 32px;
+}
+
+.box-container3 {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 80px;
+}
+
+.box-container3 > div.active2 {
+  background-color: var(--main-color);
+  color: rgb(12, 12, 15);
+}
+
+.box-title {
+  font-weight: 900;
+  font-size: 20px;
+}
+
+.box-container6 {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 15px;
+}
+
+.box-container6 > div {
+  width: calc(100% / 3 - 12px);
+  background-color: var(--box-bg);
+  height: 250px;
+  padding: 32px;
 }
